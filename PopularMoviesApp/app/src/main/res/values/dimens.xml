@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="grid_item_movie_width">100dp</dimen>
+    <dimen name="grid_item_movie_spacing">3dp</dimen>
+    <dimen name="grid_item_movie_height">170dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

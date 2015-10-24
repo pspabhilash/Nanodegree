@@ -1,0 +1,31 @@
+<resources>
+    <!--App Name-->
+    <string name="app_name">Popular Movies</string>
+
+    <!--Activity-->
+    <string name="title_activity_detail">Movie Details</string>
+
+    <!--Menu-->
+    <string name="action_sort_by">Sort By</string>
+
+    <!--Preferences-->
+    <string name="pref_sort_by_label">Sort Order</string>
+    <string name="pref_sort_by_key">Sort by</string>
+    <string name="pref_sort_by_default">popularity.desc</string>
+
+    <string name="pref_sort_by_popularity_desc_label">Most Popular</string>
+    <string name="pref_sort_by_popularity_desc">popularity.desc</string>
+
+    <string name="pref_sort_by_vote_average_desc_label">Highest Rated</string>
+    <string name="pref_sort_by_vote_average_desc">vote_average.desc</string>
+
+    <!--Movie details-->
+
+    <string name="release_date">Release Date</string>
+    <string name="vote_avergae">Vote Average</string>
+    <string name="overview">Plot Synopsis</string>
+
+    <!--INSERT API KEY-->
+    <string name="api_key">insert-api-key</string>
+
+</resources>

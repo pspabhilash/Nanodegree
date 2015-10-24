@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_sort_by_options">
+        <item>@string/pref_sort_by_popularity_desc_label</item>
+        <item>@string/pref_sort_by_vote_average_desc_label</item>
+    </string-array>
+
+    <string-array name="pref_sort_by_values">
+        <item>@string/pref_sort_by_popularity_desc</item>
+        <item>@string/pref_sort_by_vote_average_desc</item>
+    </string-array>
+
+</resources>
