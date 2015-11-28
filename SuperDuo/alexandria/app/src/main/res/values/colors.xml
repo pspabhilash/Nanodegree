@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="theme_primary">@color/blue_gray</color>
+    <color name="theme_primary_dark">@color/blue_gray_dark</color>
+    <color name="theme_accent">@color/blue_gray_accent</color>
+
+    <color name="blue_gray">#607D8B</color>
+    <color name="blue_gray_dark">#37474F</color>
+    <color name="blue_gray_accent">#B0BEC5</color>
+</resources>
