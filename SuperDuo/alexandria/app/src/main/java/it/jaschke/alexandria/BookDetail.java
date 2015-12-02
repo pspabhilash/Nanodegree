@@ -3,10 +3,12 @@ package it.jaschke.alexandria;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.view.MenuItemCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.ShareActionProvider;
 import android.util.Patterns;
 import android.view.LayoutInflater;
@@ -30,6 +32,8 @@ public class BookDetail extends Fragment implements LoaderManager.LoaderCallback
     private View rootView;
     private String ean;
     private String bookTitle;
+    private boolean mEnableNew = false;
+    private MenuItem mItemNew;
     private ShareActionProvider shareActionProvider;
 
     public BookDetail() {
@@ -72,6 +76,9 @@ public class BookDetail extends Fragment implements LoaderManager.LoaderCallback
 
         MenuItem menuItem = menu.findItem(R.id.action_share);
         shareActionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(menuItem);
+
+        mItemNew.setEnabled(mEnableNew);
+
     }
 
     @Override
@@ -99,7 +106,7 @@ public class BookDetail extends Fragment implements LoaderManager.LoaderCallback
         shareIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_DOCUMENT);
         shareIntent.setType("text/plain");
         shareIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.share_text) + bookTitle);
-        shareActionProvider.setShareIntent(shareIntent);
+         shareActionProvider.setShareIntent(shareIntent);
 
         String bookSubTitle = data.getString(data.getColumnIndex(AlexandriaContract.BookEntry.SUBTITLE));
         ((TextView) rootView.findViewById(R.id.fullBookSubTitle)).setText(bookSubTitle);
@@ -123,10 +130,17 @@ public class BookDetail extends Fragment implements LoaderManager.LoaderCallback
         String categories = data.getString(data.getColumnIndex(AlexandriaContract.CategoryEntry.CATEGORY));
         ((TextView) rootView.findViewById(R.id.categories)).setText(categories);
 
-        if (rootView.findViewById(R.id.right_container) != null) {
+        AppCompatActivity activity = (AppCompatActivity)getActivity();
+        activity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        /*if (rootView.findViewById(R.id.right_container) != null) {
             rootView.findViewById(R.id.backButton).setVisibility(View.INVISIBLE);
-        }
+        }*/
+        //--If onCreateOptionsMenu is not yet executed,it will use this boolean value when it does
 
+//--If onCreateOptionsMenu has executed, we apply state here
+        if (mItemNew != null) {
+            mItemNew.setEnabled(mEnableNew);
+        }
     }
 
     @Override

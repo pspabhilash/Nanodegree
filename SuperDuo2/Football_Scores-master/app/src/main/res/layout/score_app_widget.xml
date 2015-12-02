@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green13"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin"
+    android:contentDescription="@string/layout_single_widget">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:contentDescription="@string/layout_single_widget_team_name">
+
+        <TextView
+            android:id="@+id/home_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/widget_home_team_name"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="2"
+            android:text=""
+            android:textColor="@color/blue01"
+            android:textSize="@dimen/widget_team" />
+
+        <TextView
+            android:id="@+id/away_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/widget_away_team_name"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="2"
+            android:text=""
+            android:textColor="@color/blue01"
+            android:textSize="@dimen/widget_team" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/score_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:contentDescription="@string/widget_match_score"
+        android:gravity="center"
+        android:text="@string/widget_empty_text"
+        android:textColor="@color/blue01"
+        android:textSize="@dimen/widget_score" />
+
+</LinearLayout>
+
