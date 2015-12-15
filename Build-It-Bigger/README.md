@@ -5,4 +5,4 @@ If want check in local,Please change it to 10.0.2.2 (Android Studio emulator)
                                            10.0.3.2 (For Genymotion)
 
 NOTE:
-Please replace ''<string name="banner_ad_unit_id">INSERT UR BANNER AD ID</string>'' in the strings file with your id.
+Please replace ``<string name="banner_ad_unit_id">INSERT UR BANNER AD ID</string>`` in the strings file with your id.
