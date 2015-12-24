@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_fd464d2f7d3b212d2ba3a88a404ef93770f6ab5d.jar" />
+    </item>
+    <item
+        jar="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\exploded-aar\com.android.support\palette-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a978650837318cf056bf3383ff02fe7a3b891f20">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-palette-v7-23.1.1_47a6da30aa85247cabae5202396dce7821d3e206.jar" />
+    </item>
+    <item
+        jar="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\volley_447abdfa5bf05553c2227b13cc7f2185fb292a5e.jar" />
+    </item>
+    <item
+        jar="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_9ac7adce1ce71253a89bd107af633363dfaad473.jar" />
+    </item>
+    <item
+        jar="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_30b1cf13e830dc8bd45cc5db7c5ac56adabbb271.jar" />
+    </item>
+    <item
+        jar="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f4d7a07120e76988f3a15403838d323c2400db83">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_7fe6ca50becf739cd617a809323dd235d9dbc17b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Abhilash\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\1.1.0\d51280dbb4e8539f6c3f369d516edc26f9d89d31\okhttp-1.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d51280dbb4e8539f6c3f369d516edc26f9d89d31">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\okhttp-1.1.0_5af13dd930d9e93a5d8028129e428a65db1e5166.jar" />
+    </item>
+    <item
+        jar="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_1ee6260ab659ca461993579b5af444a37b954396.jar" />
+    </item>
+    <item
+        jar="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_cdc3b3725eddab71d83a8f5ae42786707a0e2ee2.jar" />
+    </item>
+    <item
+        jar="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5ddf5f4817565c9db82613c16093f76640a54e15">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.1.1_bfb55470125085c7c89b9dcab63cf7271030c97d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Abhilash\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_b162e351e46f6b9fd2ca80e0a1302714f1791d66.jar" />
+    </item>
+    <item
+        jar="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="E:\Nano\Projects\project 5\backup\xyzreader-master\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.1.1_cd3f6bf3bc2b8984eda457b294374e0966b1ee6b.jar" />
+    </item>
+
+</items>
